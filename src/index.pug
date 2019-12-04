@@ -30,13 +30,81 @@ html
           li Sumatra dengan luas 473.606 km²
 
       section
+          h2 Kuliner yang direkomendasikan
+          img(src="images/mieJalak.jpg")
+          ul
+            li Kuliner merupakan hal penting bagi para pemburu 
+            li dan pencari kuliner di berbagai lokasi wisata, 
+            li beberapa kuliner yang direkomendasikan  
+            li di lokasi wisata Sabang yaitu :  
+            li Mie Jalak dengan harga
+            li Rp.12.000 saja 
+
+      section
+          h2 Kuliner yang direkomendasikan
+          img(src="images/sateGurita.jpg")
+          ul
+            li Berwisata ke Sabang belum pas jika tidak mencoba 
+            li kuliner yang satu ini yaitu : Sate Gurita 
+            li Sate ini dinikmati dengan bumbu
+            li padang atau pun kacang.
+            li harganya Rp.10.000 
+
+
+      section
+          h2 Kuliner yang direkomendasikan
+          img(src="images/RujakSabang.jpg")
+          ul
+            li Kuliner yang berbahan dasar buah-buahan di Sabang
+            li Namanaya yaitu : Rujak 0 kilometer yang berlokasi 
+            li di Tugu 0 kilometer yang berada di Sabang.
+            li dengan harga Rp.6.000 saja
+
+      section
+          h2 Kuliner yang direkomendasikan
+          img(src="images/kopiSanger.jpg")
+          ul
+            li Sabang juga terkenal akan minuman yang satu ini    
+            li yaitu : Kopi Sanger minuman yang disukai oleh
+            li wisatawan kota Sabang dengan harga berkisar
+            li Rp.15.000 tergantung jenis kopinya.    
+
+
+      
+
+       
+            
+
+
+      section
+        h2 Syntax Highlighting
+        h3 Powered by <a href="https://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/PrismJS/prism">Prism</a>
+        pre
+          code.language-javascript.
+            (function() {
+              function hanoi(n, a, b, c) {
+                return n ? hanoi(n - 1, a, c, b)
+                    .concat([[a, b]])
+                    .concat(hanoi(n - 1, c, b, a)) : [];
+              }
+              return hanoi(3, 'left', 'right', 'mid')
+                .map(function(d) {
+                  return d[0] + ' -&gt; ' + d[1];
+                });
+            })();
+
+        
+
+      section(data-bespoke-hash='named-route')
+       
+        h3 Powered by <a href="persentation.pug">Click Here</a>
+
+      section
         h2 Kota Sabang
         img(src="images/sabang.jpg")
         ul 
           li Terletak di Provinsi Aceh 
           p  Kota Sabang adalah salah satu kota di Aceh, Indonesia. Kota ini berupa kepulauan di seberang utara pulau Sumatra, dengan Pulau Weh sebagai pulau terbesar. Kota Sabang merupakan zona ekonomi bebas Indonesia, ia sering disebut sebagai titik paling utara Indonesia, tepatnya di Pulau Rondo 
 
-
-     
         
     script(src='build/build.js')
